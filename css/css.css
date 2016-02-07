@@ -18,7 +18,7 @@
 }
 .main_mnu a:hover {
     background-color: #ECCF87;
-    font-size: 1.3em;
+    font-size: 1.4em;
     color: #666666;
 }
 .main_mnu ul {
@@ -26,7 +26,7 @@
     padding: 0;
     list-style-type: none;
     background-color: #FEEAB5;
-    font-size: 18px;
+    font-size: 1.3em;
     
     
 
@@ -44,8 +44,8 @@ body {
 }
 .logo {
 	width:80%;
-    height:50% !important;
-    position: relative;
+    
+    position: center;
 	
     
     
@@ -69,6 +69,7 @@ body {
 
 .main_menu_list{
     display: none;
+    
 }
 #m_list {
    display: inline-block;
@@ -77,29 +78,100 @@ body {
     
 }
 .main_mnu {
-    text-align: center !important; 
+    text-align: center !important;
+    
     
 }
-#h_con {
-    height: 80% !important;
-    align-items: center;
-    box-sizing: inherit;
-}
+
 #logo_img {
     text-align: center;
 }
 #h_row {
-    width: inherit;
+    width: 100%;
+    
+}
+#menu ul ul li{
+    float: none;
+    display: block;
+    border-bottom: 1px solid #E5C06E;
+    background: #FFC;
+    text-align: justify;
+}
+
+#main_mnu_b{
+    text-align: center;
+   
+        
 }
 
 
+.main_mnu_b li a {
+    color: #333333;
+    padding: 12px;
+    
+    -webkit-transition: all .25s;
+    -o-transition: all .25s;
+    transition: all .25s;
+    text-transform: uppercase;
+    
+    
+}
+.main_mnu_b a:hover {
+    background-color: #ECCF87;
+    font-size: 1.3em;
+    color: #666666;
+}
+#menu ul ul li a:hover {
+    background-color:transparent;
+    font-size: 1.3em;
+    color: #666666;
+}
+.main_mnu_b ul li {
+    display: inline-block;
+    font-family: "ObelixProRegular";
+    text-align: center;
+    
+   
+    
+    
+}
+#menu ul ul {
+    
+    padding: 0px;
+    border: 1px solid #E5C06E;
+     display: table;
+    position: absolute;
+    top: 22px;
+    
+    display: none;
+    
+    
+    
+}
+
+.main_mnu_b {
+    text-align: center;
+    position: relative;
+    
+}
+#menu ul ul il: last-child {
+    border-bottom: none;
+}
 
 
-
-
-
-
-
+#fsirst {
+     width: 155px;
+     top: 23px;
+     left: 16%;
+    font-size: 0.8em !important;
+    
+    align-content: center !important;
+    
+}
+#menu {
+     margin-right: 50px; 
+    margin-left: auto;
+}
 
 
 

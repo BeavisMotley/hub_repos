@@ -4,3 +4,6 @@
 #main {
     display: block;
 }
+#main ul li a {
+    display: block;
+}
