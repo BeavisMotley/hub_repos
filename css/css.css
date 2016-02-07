@@ -1,7 +1,8 @@
 .top_header {
     background-color: #FFFFCC;
     padding: 5px 0; 
-    align-content: center;
+    
+    
    
 }
 .main_mnu a {
@@ -13,10 +14,11 @@
     transition: all .25s;
     text-transform: uppercase;
     
+    
 }
 .main_mnu a:hover {
     background-color: #ECCF87;
-    
+    font-size: 1.3em;
     color: #666666;
 }
 .main_mnu ul {
@@ -38,27 +40,25 @@
 body {
 	font-family: "RobotoRegular", sans-serif;
 	font-size: 16px;
-}
-.logo {
-	width:90%;
-    height:70%;
-	margin: auto;
-    
-    
-    
-}
-#head {
-
-    align-content: center;
-    text-align: center;
-    
    
 }
+.logo {
+	width:80%;
+    height:50% !important;
+    position: relative;
+	
+    
+    
+    
+}
+
 #mbdoy {
     font-size: 1.2em;
-    align-content: center;
+    align-items: center;
     font-family: "BeerRegular";
     vertical-align: baseline;
+    text-align: center;
+    width: auto;
 }
 .main_menu_button{
     background-color: transparent;
@@ -76,12 +76,21 @@ body {
     font-size: 1.1em;
     
 }
-
-#con_1 {
-    box-sizing: content-box;
+.main_mnu {
+    text-align: center !important; 
+    
 }
-
-
+#h_con {
+    height: 80% !important;
+    align-items: center;
+    box-sizing: inherit;
+}
+#logo_img {
+    text-align: center;
+}
+#h_row {
+    width: inherit;
+}
 
 
 
