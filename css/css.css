@@ -2,6 +2,7 @@
     background-color: #FFFFCC;
     padding: 5px 0; 
     align-content: center;
+   
 }
 .main_mnu a {
     color: #333333;
@@ -39,8 +40,8 @@ body {
 	font-size: 16px;
 }
 .logo {
-	width:100%;
-    height:100%;
+	width:90%;
+    height:70%;
 	margin: auto;
     
     
@@ -50,6 +51,7 @@ body {
 
     align-content: center;
     text-align: center;
+    
    
 }
 #mbdoy {
@@ -62,6 +64,7 @@ body {
     background-color: transparent;
     border: medium none;
     font-size: 30px;
+    
 }
 
 .main_menu_list{
@@ -73,6 +76,11 @@ body {
     font-size: 1.1em;
     
 }
+
+#con_1 {
+    box-sizing: content-box;
+}
+
 
 
 
