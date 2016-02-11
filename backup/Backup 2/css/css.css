@@ -43,7 +43,8 @@ body {
    
 }
 .logo {
-	width:80%;
+	width:70%;
+    height: 60%;
     
     position: center;
 	
@@ -98,6 +99,7 @@ body {
     border-bottom: 1px solid #E5C06E;
     background: #FFC;
     text-align: left;
+    
 }
 
 #main_mnu_b{
@@ -127,12 +129,15 @@ body {
     background-color:transparent;
     font-size: 1.3em;
     color: #666666;
+    
 }
 .main_mnu_b ul li {
     display: inline-block;
     font-family:"RobotoRegular", sans-serif;
     text-align: left;
     font-weight: bold;
+    
+    
     
    
     
@@ -143,9 +148,9 @@ body {
     padding: 0px;
     border: 1px solid #E5C06E;
      display: table;
-    position: absolute;
+    position: absolute !important;
     top: 29px;
-    
+    z-index: 101;
     display: none;
     
     
@@ -159,6 +164,7 @@ body {
 }
 #menu ul ul il:last-child {
     border-bottom: none;
+    position: absolute !important;
    
 }
 

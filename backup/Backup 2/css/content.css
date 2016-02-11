@@ -1,0 +1,16 @@
+.blog_item {
+    background-color: aqua;
+    
+    margin-top: 15px;
+    
+    
+}
+.right_aside {
+    
+    margin-top: 15px;
+    margin-right: 10px;
+    background-color: blueviolet;
+}
+.main_content {
+    background-color: #FFC;
+}
