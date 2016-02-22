@@ -1,0 +1,6 @@
+#main > ul >li > ul {
+    display: none;
+}
+#main {
+    display: block;
+}
