@@ -1,3 +1,4 @@
+
 .blog_item {
     background-color: aqua;
     
@@ -13,4 +14,31 @@
 }
 .main_content {
     background-color: #FFC;
+}
+
+#inform {
+    align-content: right;
+}
+.sider_container img {
+	max-width: 100%;
+}
+.sider_container {
+	position: relative;
+}
+.next_button, .prev_button {
+	background-color: rgba(255, 255, 255, 0.5);
+	border-radius: 10em;
+	color: #fff;
+	cursor: pointer;
+	font-size: 46px;
+	padding: 0 25px;
+	position: absolute;
+	top: 40%;
+	z-index: 10;
+}
+.next_button {
+	right: 20px;
+}
+.prev_button {
+	left: 20px;
 }

@@ -43,8 +43,9 @@ $(document).ready(function() {
 	//Документация: http://owlgraphic.com/owlcarousel/
 	var owl = $(".carousel");
 	owl.owlCarousel({
-		items : 3,
-		autoHeight : true
+		items : 1,
+		autoHeight : false,
+        margin: 20px,
 	});
 	owl.on("mousewheel", ".owl-wrapper", function (e) {
 		if (e.deltaY > 0) {

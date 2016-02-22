@@ -1,14 +1,16 @@
 .top_header {
     background-color: #FFFFCC;
+    padding: 5px 0;   
+}
+.footer {
+    background-color: #FFFFCC;
     padding: 5px 0; 
-    
-    
-   
 }
 .main_mnu a {
     color: #333333;
     padding: 15px;
     display: block;
+     -moz-transition: all .25s;
     -webkit-transition: all .25s;
     -o-transition: all .25s;
     transition: all .25s;
@@ -46,12 +48,13 @@ body {
 	width:70%;
     height: 60%;
     
-    position: center;
+    position: center;    
+    }
+.foot {
 	
-    
-    
-    
-}
+    width: 1200px;
+    position: center !important;    
+    }
 
 #mbdoy {
     font-size: 0.9em;
@@ -196,6 +199,25 @@ body {
     text-align: center;
     
 }
+#foot {
+   background-color: #E5C06E;
+    height: 50px;
+    
+}
+.col-md-9{
+    padding-left: 0px !important;
+}
+
+
+    #owl-demo .item{
+      margin: 3px;
+    }
+    .slide_item {
+      display: block;
+      width: 45%;
+      height: auto;
+    }
+
 
 
 
