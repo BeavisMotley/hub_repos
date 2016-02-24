@@ -127,12 +127,12 @@ body {
 }
 .main_mnu_b a:hover {
     background-color: #ECCF87;
-    font-size: 1.2em;
+    font-size: 1.1em;
     color: #666666;
 }
 #menu ul ul li a:hover {
     background-color:transparent;
-    font-size: 1.3em;
+    font-size: 1.1em;
     color: #666666;
     
 }
@@ -163,6 +163,7 @@ body {
     top: 29px;
     z-index: 101;
     display: none;
+    width: 20em;
     
     
     
@@ -173,11 +174,11 @@ body {
     border: 1px solid #E5C06E;
      display: table;
     position: absolute !important;
-    top: -1px;
+    top: 0em;
     z-index: 101;
     display: none;
-    right: -285px;
-        
+    left: 18.5em;
+    width: 20em;
 }
 
 .main_mnu_b {
