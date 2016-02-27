@@ -1,26 +1,26 @@
 .top_header {
     background-color: #FCE8B0;
-    padding: 5px 0;   
+    padding: 0 0;   
 }
 .footer {
     background-color: #FCE8B0;
-    padding: 5px 0; 
+    padding: 0 0; 
 }
 .main_mnu a {
     color: #333333;
-    padding: 5px;
+    
     display: block;
-     -moz-transition: all .25s;
-    -webkit-transition: all .25s;
-    -o-transition: all .25s;
-    transition: all .25s;
+     -moz-transition: all .90s;
+    -webkit-transition: all .27s;
+    -o-transition: all .27s;
+    transition: all .90s;
     text-transform: uppercase;
     
     
 }
 .main_mnu a:hover {
     background-color: #ECCF87;
-    font-size: 1.2em;
+    
     color: #666666;
 }
 .main_mnu ul {
@@ -40,7 +40,7 @@
     
 }
 body {
-	font-family: "RobotoRegular", sans-serif;
+	font-weight:600;
 	font-size: 16px;
    
 }
@@ -100,12 +100,13 @@ body {
     float: none;
     display: block;
     border-bottom: 1px solid #E5C06E;
-    background: #FCE8B0;
+    background-image: url(../img/mnu_select.png);
     text-align: left;
-    padding-top: 3px;
-    padding-bottom: 3px;
+    padding-top: 6px;
+    padding-bottom: 6px;
     
 }
+
 
 #main_mnu_b{
     text-align: center;
@@ -116,29 +117,36 @@ body {
 
 .main_mnu_b li a {
     color: #333333;
-    padding: 12px;
+    padding: 16px 15px 5px 15px;  
+    transition: all .30s;
+    text-transform: uppercase;    
+}
+.main_mnu_b ul ul li a {
+    color: #333333;
+    padding: 5px 5px 5px 5px;
     
-    -webkit-transition: all .25s;
-    -o-transition: all .25s;
-    transition: all .25s;
+   
+    transition: all .30s;
     text-transform: uppercase;
     
     
 }
 .main_mnu_b a:hover {
-    background-color: #ECCF87;
-    font-size: 1.1em;
-    color: #666666;
-}
-#menu ul ul li a:hover {
-    background-color:transparent;
-    font-size: 1.1em;
-    color: #666666;
+    
+    background-image: url(../img/mnu_select.png);
+    color:lightslategray;
     
 }
-#menu ul ul ul li a:hover {
-    background-color:transparent;
-    font-size: 1.1em;
+#menu ul ul li:hover{
+    border-bottom: 1px solid #E5C06E;
+    width: 100% ;
+    text-align: left;
+    
+    color: #666666;
+}
+#menu ul ul ul li:hover {
+    
+    
     color: #666666;
     
 }
@@ -147,38 +155,35 @@ body {
     font-family:"RobotoRegular", sans-serif;
     text-align: left;
     font-weight: bold;
-    
-    
-    
-   
-    
-    
+    vertical-align: baseline;
 }
 #menu ul ul {
     
-    padding: 0px;
+    padding: 0px !important;
     border: 1px solid #E5C06E;
-     display: table;
+        
     position: absolute !important;
-    top: 29px;
-    z-index: 101;
+    top: 2.7em;
+    z-index: 100;
     display: none;
-    width: 20em;
-    
-    
+    margin: 0px;
     
 }
-#menu ul ul ul {
+#menu ul ul ul{
     
-    padding: 0px;
+    
     border: 1px solid #E5C06E;
-     display: table;
+    display: table;
     position: absolute !important;
     top: 0em;
     z-index: 101;
     display: none;
-    left: 18.5em;
-    width: 20em;
+    left: 283px;
+    margin-left: -0.4em;
+    width: 100%;
+   
+     
+   
 }
 
 .main_mnu_b {
@@ -186,28 +191,51 @@ body {
     position: relative;
     
 }
-#menu ul ul il:last-child {
-    border-bottom: none;
-    position: absolute !important;
-   
-}
 
+#menu ul{
+    padding: 0px;
+    padding-bottom: 10px;
+}
 
 
 #menu {
-     margin-right: 50px; 
-    margin-left: auto;
+  background-image: url(../img/m_lists.png);
+    border-radius:50px 50px 0px 0px;
+    padding: 1px;
+    padding-bottom: 5px;
+    height: 2.8em;
+    border-bottom: 3px dashed #E5C06E;
+}
+.right_aside {
+  background-image: url(../img/m_lists.png);
+    border-radius:0px 0px 0px 40px;    
+   padding-top: 1px;
+    margin-right: -15px;
+    margin-left: -16px;
+    padding-bottom: 20px;
+}
+.content-text {
+  background-image: url(../img/m_lists.png);
+    border-radius:0px 0px 20px 20px;
+    padding-top: 1px;
+    margin-right: 15px;
+   padding-bottom: 15px;
 }
 .right_aside ul li {
-   border-bottom: 1px solid #E5C06E;
+   border-bottom: 3px solid #E5C06E;
+    border-right: 2px solid #E5C06E;
+     border-top: 2px solid #E5C06E;
+     border-left: 2px solid #E5C06E;
     list-style: none;
     text-align: left;
+   padding-left: 6px;
     
 }
 .right_aside ul {
-   padding-left: 3px;
-   padding-right: 3px;
+   padding-left: 0px;
+   padding-right: 18px;
     text-align: center;
+    
     
 }
 #foot {
@@ -252,8 +280,10 @@ body {
     left: 1%;
 	z-index: 10;
 }
-
-
+p {
+    margin-top: 5px;
+    margin-bottom: 0px;
+}
 
 
 
