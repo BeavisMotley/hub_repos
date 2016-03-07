@@ -1,9 +1,0 @@
-#main > ul >li > ul {
-    display: none;
-}
-#main {
-    display: block;
-}
-#main ul li a {
-    display: block;
-}

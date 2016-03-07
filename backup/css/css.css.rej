@@ -1,9 +1,0 @@
-diff a/css/css.css b/css/css.css	(rejected hunks)
-@@ -0,6 +0,7 @@
- .top_header {
-     background-color: #FFFFCC;
-     padding: 5px 0; 
-+    align-content: center;
- }
- .main_mnu a {
-     color: #333333;

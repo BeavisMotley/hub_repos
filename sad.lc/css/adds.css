@@ -1,0 +1,81 @@
+/*глобальные*/
+#galeznik_n_v {
+            float: left;
+            margin:0px 17px 5px 0px;
+            border: 4px solid #aaa;
+        }
+#collective {
+        margin:10px 20px 5px 20px;
+        border: 4px solid #aaa;
+        }
+#educ {
+            width: 50%;
+            height: 50%;
+            border: 4px solid #aaa;
+        }
+.sit{
+      padding: 5px;
+      font-weight: bold;
+      background-color: #FCE8B0;
+    }
+/* комфорт> груповые помещения */
+#events {
+            width: 35%;
+          margin: 0px 10px 10px 0px;
+            border: 4px solid #aaa;
+            float: left;
+            
+        }
+        .g_logo{
+            float: right;
+        }
+        #zaychata {
+            color: #666699;
+            
+        }
+        #luchiki {
+            color: #F0A214;
+        }
+        #vesnushki {
+            color: #9F7A7A; 
+        }
+        #raduga {
+             color: #FE7533; 
+        }
+        #pochemuchki {
+            color: brown;
+        }
+        #ulibashki {
+            color: #E1A14B;
+        }
+        #kapelki {
+            color: blue;
+        }
+        #zvonochki {
+             color: gold;
+        }
+ #zaychata, #luchiki, #vesnushki, #raduga, #pochemuchki, #ulibashki, #kapelki, #zvonochki {            
+            font-family: "RobotoCondensedBold";
+            }
+/* index*/
+    .tbl {
+           border: 3px solid olivedrab;
+             font-family:georgia;
+            font-weight: bold;
+                background-color: #CCFF66;
+                
+            }
+  #we {
+    width:100%;
+              }
+hr{
+        border: 2px solid #F9C000;
+
+        }
+/* игра вет клиника таблица*/
+td {
+            padding:5px;
+            border: 4px solid #aaa;
+            text-align: center;
+            
+        }
