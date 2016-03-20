@@ -1,4 +1,10 @@
 <?php
+    $title='Воспитатель-добрый учитель|МБДОУ№10"Дружные ребята"';
+    require('head.php');
+?>
+</head>
+<body>
+   <?php
     ini_set('error_reporting', E_ALL);
     ini_set('display_errors', 1);
     ini_set('display_startup_errors', 1);
@@ -76,7 +82,7 @@
 								<h3 style="text-align:center">Рисуем. Творим. Удивляем.</h3>
 									<p>&nbsp;&nbsp;&nbsp;&nbsp;У нас в группе есть уголок творчества для родителей. После каждого занятия, мы с детьми вывешиваем наши шедевры. И на каждый праздник у нас оформляется выставка для родителей, сделана нашими ручками. Мы используем разный материал для рисунков и поделок – это и разные  <a href="ishuk_l_n/risuem_tvorim.php" target="_blank">читать далее...</a> </p> 
 								</div>
-							</div>            
+							</div>                                   
                          </div>   
                         </div>
                     </div>

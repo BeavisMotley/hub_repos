@@ -1,4 +1,10 @@
 <?php
+    $title='Рисуем.Творим.Удивляем.|Ищук Л.Н.|МБДОУ№10"Дружные ребята"';
+    require('m_head.php');
+?>
+</head>
+<body>
+   <?php
     ini_set('error_reporting', E_ALL);
     ini_set('display_errors', 1);
     ini_set('display_startup_errors', 1);
@@ -17,7 +23,7 @@
                     <div class="col-md-9">
 					<div class="content-text">
 						<div class="blog_item">
-                        <p style='text-align:center; font-weight:bold;'><span style="color:red;">Рисуем. Творим. Удивляем.</span></p>
+                        <p style='text-align:center; font-weight:bold;'><span style="color:red; font-size:1.3em;">Рисуем. Творим. Удивляем.</span></p>
                            <p style="font-style:italic; font-weight:bold;">“Истоки способностей и дарований детей – на кончиках их пальцев. От пальцев, образно говоря, идут тончайшие ручейки, которые питают источник творческой мысли“.<br>
                            <span style="float:right;">В. А. Сухомлинский</span></p><br><br>
                            &nbsp;&nbsp;&nbsp;&nbsp;    У нас в группе есть уголок творчества для родителей. После каждого занятия, мы с детьми вывешиваем наши шедевры. И на каждый праздник у нас оформляется выставка для родителей, сделана нашими ручками. Мы используем разный материал для рисунков и поделок – это и разные виды круп, макарон, природный материал, бросовый материал. Со всем этим очень интересно работать детям. Представляю вам наши некоторые работы.<br>

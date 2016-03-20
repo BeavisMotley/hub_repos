@@ -2,7 +2,18 @@
 
 /* Large Devices, Wide Screens */
 @media only screen and (max-width : 1200px) {
-
+    #menu ul{
+        font-size: 0.8em;
+        padding-left: 1px;
+        padding-right: 1px;
+    }
+     #menu ul ul {
+         font-size: 0.9em;}
+    #menu ul ul ul{
+        left: 101% !important;
+        top: -1px !important;
+        font-size: 0.9em;
+    }
 }
 
 /* Medium Devices, Desktops */
@@ -18,8 +29,6 @@
         display: none;
         width: 100%;
         font-size: 1.2em;
-        
-		
 	}
 
 	
@@ -43,22 +52,6 @@
 	}
 	
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /* Extra Small Devices, Phones */
 @media only screen and (max-width : 480px) {
@@ -137,5 +130,9 @@
 
 /* Large Devices, Wide Screens */
 @media only screen and (min-width : 1200px) {
-
+     #menu ul{
+        
+        padding-left: 3px;
+        padding-right: 3px;
+    }
 }

@@ -1,4 +1,10 @@
 <?php
+    $title='Мы-экспериментируем!|Ищук Л.Н.|МБДОУ№10"Дружные ребята"';
+    require('m_head.php');
+?>
+</head>
+<body>
+   <?php
     ini_set('error_reporting', E_ALL);
     ini_set('display_errors', 1);
     ini_set('display_startup_errors', 1);
